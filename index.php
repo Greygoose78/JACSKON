@@ -1,5 +1,5 @@
 <?php include "partials/header.php" ?>
-<?php include "../partials/sidebar.php" ?>
+<?php include "partials/sidebar.php" ?>
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
