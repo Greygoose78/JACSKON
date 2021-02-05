@@ -40,4 +40,5 @@
         offset: 74,
     });
 
+
 })(jQuery); // End of use strict

@@ -4,7 +4,7 @@
   </div>
   <ul class="sidebar-navigation">
     <li class="header">Navigation</li>
-    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.php"><i class="fas fa-home"></i> Accueil</a></li>
+    <li class="nav-item active"><a class="nav-link js-scroll-trigger" href="../index.php"><i class="fas fa-home"></i> Accueil</a></li>
     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../content/actualite.php"><i class="fas fa-newspaper"></i> Actualité</a></li>
     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../content/galerie-image.php"><i class="far fa-image"></i> Galerie d'image</a></li>
     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../content/galerie-video.php"><i class="fab fa-youtube"></i> Galerie vidéo</a></li>
