@@ -1,5 +1,6 @@
 <?php include "../partials/header.php" ?>
-<section class="page-section bg-light" id="portfolio">
+<?php include "../partials/sidebar.php" ?>
+<section class="page-section" id="portfolio">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>

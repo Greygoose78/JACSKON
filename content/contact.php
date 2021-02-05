@@ -1,4 +1,5 @@
 <?php include "../partials/header.php" ?>
+<?php include "../partials/sidebar.php" ?>
 <!-- Contact-->
 <section class="page-section" id="contact">
             <div class="container">
