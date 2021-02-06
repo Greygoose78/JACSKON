@@ -9,7 +9,7 @@ var myVar;
 
 function myLoader() {
 
-    myVar = setTimeout(showPage, 1300);
+    myVar = setTimeout(showPage, 900);
 
 }
 

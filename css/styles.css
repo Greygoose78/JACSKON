@@ -10787,50 +10787,50 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: 100%;
     height: 1000px;
     background-size: cover;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s;
+    animation: fadeout 1s;
+    -moz-animation: fadeout 1s;
     /* Firefox */
-    -webkit-animation: fadein 2s;
+    -webkit-animation: fadeout 1s;
     /* Safari et Chrome */
-    -o-animation: fadein 2s;
+    -o-animation: fadeout 1s;
     /* Opera */
 }
 
-@keyframes fadein {
+@keyframes fadeout {
     from {
-        opacity: 0;
+        opacity: 1;
     }
     to {
-        opacity: 1;
+        opacity: 0;
     }
 }
 
-@-moz-keyframes fadein {
+@-moz-keyframes fadeout {
     /* sur Firefox */
     from {
-        opacity: 0;
+        opacity: 1;
     }
     to {
-        opacity: 1;
+        opacity: 0;
     }
 }
 
-@-webkit-keyframes fadein {
+@-webkit-keyframes fadeout {
     /* sur Safari et Chrome */
     from {
-        opacity: 0;
+        opacity: 1;
     }
     to {
-        opacity: 1;
+        opacity: 0;
     }
 }
 
-@-o-keyframes fadein {
+@-o-keyframes fadeout {
     /* sur Opera */
     from {
-        opacity: 0;
+        opacity: 1;
     }
     to {
-        opacity: 1;
+        opacity: 0;
     }
 }
