@@ -3,7 +3,33 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
  */
+
+
+var myVar;
+
+function myLoader() {
+
+    myVar = setTimeout(showPage, 1300);
+
+}
+
+function showPage() {
+
+    document.getElementById("loader").style.display = "none";
+    $(document).ready(function() {
+        (function() {
+            var i = 0;
+            setInterval(function() {
+                $("body").addClass("bg1");
+                $("body").removeClass("body1");
+            }, 0);
+        })();
+    });
+    document.getElementById("page").style.display = "block";
+}
+
 (function($) {
+
     "use strict"; // Start of use strict
 
     // Smooth scrolling using jQuery easing
@@ -47,4 +73,4 @@
     });
 
 
-})(jQuery); // End of use strict
+})(jQuery); // End of use strict.
