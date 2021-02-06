@@ -96,6 +96,9 @@ section {
     #navbar {
         display: block;
     }
+    .removeDiv {
+        display: none;
+    }
 }
 
 .content-container {
@@ -174,14 +177,10 @@ section {
 }
 
 .newspaper:hover {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
-    width: 800px;
-    margin-left: 50px;
-    margin-right: 50px;
-    z-index: 999;
+    padding: 1.85rem 3rem;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    transition: 400ms ease-in-out;
 }
 
 body {

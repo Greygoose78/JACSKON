@@ -14,11 +14,13 @@
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
         <!-- Core theme CSS (includes Bootstrap) aa-->
         <link href="../css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-dark stext-white bg-black" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark text-white sticky-top" id="navbar" style="background-color:black">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

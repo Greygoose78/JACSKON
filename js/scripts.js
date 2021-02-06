@@ -40,5 +40,11 @@
         offset: 74,
     });
 
+    //https://github.com/fancyapps/fancyBox
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });
+
 
 })(jQuery); // End of use strict
