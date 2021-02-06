@@ -60,14 +60,13 @@
                 <div class="col-6">
                     <div class="p-3">
                         <div class="media">
-                            <img src="../img/mj-blanc.jpg" class="mr-3 mt-3 img-fluid" width="200" alt="Avatar utilisateur">
                             <div class="media-body">
                                 <h5 class="mt-0"></h5>
                                 <p class="lead text-white">Surnommé « le roi de la pop » (« The King of Pop »), Michael Jackson a battu plusieurs records dans l'industrie du disque. Avec plus de 350 millions de disques vendus dans le monde, il se classe parmi les trois plus gros vendeurs de disques de tous les temps, derrière les Beatles et Elvis Presley.</p>
                             </div>
+                            <img src="../img/mj-blanc.jpg" class="mr-3 mt-3 img-fluid" width="200" alt="Avatar utilisateur">
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

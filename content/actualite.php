@@ -6,8 +6,14 @@
     <div class="row g-2">
         <div class="col-6">
             <h3 class="text-white lead text-uppercase text-white">Michael Jackson : les détails inquiétants de son autopsie</h3>
+            <blockquote>
+                <cite>
+                    Source: https://www.rtl.fr/
+                </cite>
+            </blockquote>
             <div class="media">
-                <a href="https://www.rtl.fr/culture/medias-people/michael-jackson-les-details-inquietants-de-son-autopsie-7800944589" target="blank_"><img src="../img/newspaper.png" class="img-fluid newspaper"></a>
+                <a href="https://www.rtl.fr/culture/medias-people/michael-jackson-les-details-inquietants-de-son-autopsie-7800944589" target="blank_"><img src="../img/newspaper.png" data-aos="fade-left'" data-aos-duration="3000" class="img-fluid newspaper"></a>
+
             </div>
         </div>
         <div class="col-6">
@@ -17,17 +23,27 @@
         </div>
         <div class="col-6">
             <div class="p-3">
-            <h3 class="text-white lead text-uppercase text-white">Michael Jackson incontinent ? Cette raison pour laquelle la star portait des pantalons noirs</h3>
+                <h3 class="text-white lead text-uppercase text-white">Michael Jackson incontinent ? Cette raison pour laquelle la star portait des pantalons noirs</h3>
+                <blockquote>
+                    <cite>
+                        Source: https://www.closermag.fr
+                    </cite>
+                </blockquote>
                 <div class="media">
-                    <a href="https://www.closermag.fr/people/michael-jackson-incontinent-cette-raison-pour-laquelle-la-star-portait-des-panta-1165805"><img src="../img/newspaper.png" class="img-fluid newspaper"></a>
+                    <a href="https://www.closermag.fr/people/michael-jackson-incontinent-cette-raison-pour-laquelle-la-star-portait-des-panta-1165805" target="blank_"><img src="../img/newspaper.png" data-aos="fade-right'" data-aos-duration="3000" class="img-fluid newspaper"></a>
                 </div>
             </div>
         </div>
         <div class="col-6">
             <div class="p-3">
-            <h1 class="text-white lead text-uppercase text-white">Michael Jackson : les terribles révélations sur ses derniers instants</h1>
+                <h1 class="text-white lead text-uppercase text-white">Michael Jackson : les terribles révélations sur ses derniers instants</h1>
+                <blockquote>
+                    <cite>
+                        Source: https://www.femmeactuelle.fr/
+                    </cite>
+                </blockquote>
                 <div class="media">
-                    <a href="https://www.femmeactuelle.fr/actu/news-actu/michael-jackson-les-terribles-revelations-sur-ses-derniers-instants-2098148"><img src="../img/newspaper.png" class="img-fluid newspaper"></a>
+                    <a href="https://www.femmeactuelle.fr/actu/news-actu/michael-jackson-les-terribles-revelations-sur-ses-derniers-instants-2098148" target="blank_"><img src="../img/newspaper.png" data-aos="fade-left'" data-aos-duration="3000" class="img-fluid newspaper"></a>
                 </div>
             </div>
         </div>
@@ -38,10 +54,15 @@
         </div>
         <div class="col-6">
             <div class="p-3 ">
-            <h3 class="text-white lead text-uppercase text-white">Michael Jackson : Quand Brooke Shields refusait sa demande en mariage</h3>
+                <h3 class="text-white lead text-uppercase text-white">Michael Jackson : Quand Brooke Shields refusait sa demande en mariage</h3>
+                <blockquote>
+                    <cite>
+                        Source: https://www.purepeople.com/
+                    </cite>
+                </blockquote>
                 <div class="media ">
                     <a target="blank_" href="https://www.purepeople.com/article/michael-jackson-quand-brooke-shields-refusait-sa-demande-en-mariage_a420305/1">
-                        <img src="../img/newspaper.png" class="img-fluid newspaper">
+                        <img src="../img/newspaper.png" data-aos="fade-right'" data-aos-duration="3000" class="img-fluid newspaper">
                     </a>
                 </div>
             </div>

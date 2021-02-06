@@ -8,5 +8,9 @@
 <!-- Contact form JS-->
 <script src="../assets/mail/jqBootstrapValidation.js"></script>
 <script src="../assets/mail/contact_me.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!-- Core theme JS-->
 <script src="../js/scripts.js"></script>
+<script>
+  AOS.init();
+</script>

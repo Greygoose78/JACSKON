@@ -10,8 +10,8 @@
         <?php
             $imageGalerie = file_get_contents("../images.json");
             $imageGalerieDecode = json_decode($imageGalerie, true);
-            foreach ($imageGalerieDecode as $value) {
-                echo '<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img/'.$value.'" data-lightbox="photos"><img class="img-fluid" src="../img/'.$value.'"></a></div>';
+            foreach ($imageGalerieDecode as $key => $value) {
+                echo '<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img/'.$value['value'].'"><img data-aos="'.$value['fade'].'" data-aos-duration="3000" class="img-fluid" src="../img/'.$value['value'].'"></a></div>';
             }
         ?>
         </div>
