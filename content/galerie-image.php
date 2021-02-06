@@ -6,47 +6,14 @@
             <h2 class="section-heading text-uppercase text-white">Galerie d'image</h2>
             <h3 class="section-subheading text-muted">Quelques images concernant MJ</h3>
         </div>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="img-fluid" src="../img/mj-bg-11.jpg" alt="" />  
-                </div>
-                <div class="carousel-item">
-                    <img class="img-fluid" src="../img/mj-bg-7.jpg" alt="" />
-                </div>
-                <div class="carousel-item">
-                    <img class="img-fluid" src="../img/mj-bg-1.jpg" alt="" />
-                </div>
-                <div class="carousel-item">
-                    <img class="img-fluid" src="../img/mj-bg-12.jpg" alt="" />
-                </div>
-                <div class="carousel-item">
-                    <img class="img-fluid" src="../img/mj-bg-10.jpg" alt="" />
-                </div>s
-                <div class="carousel-item">
-                    <img class="img-fluid" src="../img/mj-bg-13.jpg" alt="" />
-                </div>
-                <div class="carousel-item">
-                <img class="img-fluid" src="../img/mj-bg-4.jpg" alt="" />
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+        <div class="row photos">
+        <?php
+            $imageGalerie = file_get_contents("../images.json");
+            $imageGalerieDecode = json_decode($imageGalerie, true);
+            foreach ($imageGalerieDecode as $value) {
+                echo '<div class="col-sm-6 col-md-4 col-lg-3 item"><a href="../img/'.$value.'" data-lightbox="photos"><img class="img-fluid" src="../img/'.$value.'"></a></div>';
+            }
+        ?>
         </div>
     </div>
 </section>
