@@ -18,3 +18,21 @@
         <link href="../css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark stext-white bg-black" id="navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <div class="sidebar-logo">
+                <img src="../img/logo-mj-blanc.png" class="img-fluid" width="100" alt="">
+            </div>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="../index.php"><i class="fas fa-home"></i> Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="../content/actualite.php"><i class="fas fa-newspaper"></i> Actualité</a></li>
+                <li class="nav-item"><a class="nav-link" href="../content/galerie-image.php"><i class="far fa-image"></i> Galerie d'image</a></li>
+                <li class="nav-item"><a class="nav-link" href="../content/galerie-video.php"><i class="fab fa-youtube"></i> Galerie vidéo</a></li>
+                <li class="nav-item"><a class="nav-link" href="../content/discographie.php"><i class="fas fa-compact-disc"></i> Discographie</a></li>
+                <li class="nav-item"><a class="nav-link" href="../content/contact.php"><i class="far fa-address-card"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
