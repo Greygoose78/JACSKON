@@ -28,6 +28,10 @@ function showPage() {
     document.getElementById("page").style.display = "block";
 }
 
+function openNews(link) {
+    document.location.href = link;
+}
+
 (function($) {
 
     "use strict"; // Start of use strict
@@ -71,6 +75,7 @@ function showPage() {
         openEffect: "none",
         closeEffect: "none"
     });
+
 
 
 })(jQuery); // End of use strict.

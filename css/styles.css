@@ -171,11 +171,6 @@ section {
     background-color: transparent;
 }
 
-.newspaper {
-    width: 400px;
-    height: 200px;
-}
-
 .newspaper:hover {
     padding: 1.85rem 3rem;
     -webkit-transform: scale(1.15);
