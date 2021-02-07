@@ -28,9 +28,6 @@ function showPage() {
     document.getElementById("page").style.display = "block";
 }
 
-function openNews(link) {
-    document.location.href = link;
-}
 
 (function($) {
 
