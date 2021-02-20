@@ -4,7 +4,7 @@
     <div class="container">
         <div class="text-center">
             <h2 class="section-heading text-uppercase text-white">Galerie d'image</h2>
-            <h3 class="section-subheading text-muted">Quelques images concernant MJ</h3>
+            <h3 class="section-subheading text-muted">Quelques images de la carrière de Michael Jackson</h3>
         </div>
         <div class="row photos p-5">
 

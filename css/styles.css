@@ -172,9 +172,8 @@ section {
 }
 
 .newspaper:hover {
-    padding: 1.85rem 3rem;
-    -webkit-transform: scale(1.15);
-    transform: scale(1.15);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
     transition: 400ms ease-in-out;
 }
 
