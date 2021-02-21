@@ -1,11 +1,32 @@
 <?php
-    ini_set( 'display_errors', 1 );
-    error_reporting( E_ALL );
-    $from = $_POST['email'];
-    $to = "contact@kevinceyland.fr";
-    $subject = "Formulaire de contact Jacksonfour";
-    $message = $_POST['message'];
-    $headers = "De :" . $from;
-    mail($to,$subject,$message, $headers);
-    echo "L'email a été envoyé.";
+    if (isset($_POST['envoyer'])) {
+        $to       = 'jacksonfour.contact@gmail.com';
+        $subject  = "Message d'un utilisateur depuis la page Contact de du site jacksonfour.com";
+
+            $nom=$_POST['name'];
+            $email=$_POST['email'];
+            $telephone=$_POST['telephone'];
+            $message =$_POST['message']  ;
+            $headers  = 'From: pagecontact@gmail.com' . "\r\n" .
+            'MIME-Version: 1.0' . "\r\n" .
+            'Content-type: text/html; charset=utf-8';
+            $note= "User Name: $nom <br/> email: $email <br/> Telephone: $telephone <br/><br/> Message: <p> $message</p>";
+            
+            if(mail($to, $subject, $note, $headers)) {
+              
+             ?> <script>
+                 alert("Message envoyé");
+              </script>
+           <?php   } 
+           
+         else {
+             
+            ?>  
+            <script>
+                alert("Imposible d'envoyer votre message!!!");
+            </script>
+
+        <?php }
+             
+      }
 ?>
