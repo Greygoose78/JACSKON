@@ -178,7 +178,7 @@ textarea{
   font-family: 'MS Serif', 'New York', sans-serif;
 }
 .blurClasse{
-  filter: blur(0.6rem);
+  filter: blur(0.4rem);
 }
 
 .btnFerme{
