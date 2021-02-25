@@ -1,13 +1,13 @@
 <?php include "../partials/header.php" ?>
 <?php include "../partials/sidebar.php" ?>
-    <div class="contactBody">
+    <div class="contactBody container">
         <div class="wrapper">
             <div class="contactContent">
             <h1 class="text-center text-white mt-5 text-uppercase">On attends vos messages !</h1>
                 <div class="middleContent" id="diva1">
                     <div class="sectionOne">
                         <i class="fa fa-2x fa-phone-square iconA" aria-hidden="true"><span> +33 07 26 25 21 </span></i>
-                        <i class="fa fa-2x fa-envelope iconA" aria-hidden="true"><span style="font-size:20px;"> jacksonfour@gmail.com</span></i>
+                        <i class="fa fa-2x fa-envelope iconA" aria-hidden="true"><span style="font-size:20px;"> jacksonfour.contact@gmail.com</span></i>
                         <i class="fa fa-2x fa-fax iconA" aria-hidden="true"><span> +1 13 55 77 11 </span></i>
                     </div>
                     <div class="sectionTwo">

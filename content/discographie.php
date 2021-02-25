@@ -21,7 +21,7 @@
                                 echo '<li>';
                             }
                             echo '
-                                <div class="timeline-image"><a  target="_blank" href="'. $value['musique']. '"><img class="rounded-circle img-fluid img-hover-discographie" src="../img/'.$value['cover'].'" alt="" /></a></div>
+                                <div class="timeline-image"><a target="_blank" href="'. $value['musique']. '"><img class="rounded-circle img-fluid img-hover-discographie" src="../img/'.$value['cover'].'" alt="" /></a></div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
                                         <h4>'.$value['annee'].'</h4>
