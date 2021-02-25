@@ -15,7 +15,8 @@
             if(mail($to, $subject, $note, $headers)) {
               
              ?> <script>
-                 alert("Message envoyé");
+                alert("Message envoyé");
+                document.location.href = "http://jacksonfour/";
               </script>
            <?php   } 
            
@@ -24,6 +25,7 @@
             ?>  
             <script>
                 alert("Imposible d'envoyer votre message!!!");
+                document.location.href = "http://jacksonfour/content/contact.php";
             </script>
 
         <?php }
