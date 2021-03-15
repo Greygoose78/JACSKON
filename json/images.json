@@ -1,0 +1,14 @@
+[
+    { "fade": "fade-left", "value": "mj-bg-1.jpg" },
+    { "fade": "fade-right", "value": "mj-bg-2.jpg" },
+    { "fade": "fade-left", "value": "mj-bg-3.jpg" },
+    { "fade": "fade-right", "value": "mj-bg-4.jpg" },
+    { "fade": "fade-left", "value": "mj-bg-5.jpg" },
+    { "fade": "fade-right", "value": "mj-bg-6.jpg" },
+    { "fade": "fade-left", "value": "mj-bg-7.jpg" },
+    { "fade": "fade-right", "value": "mj-bg-8.jpg" },
+    { "fade": "fade-left", "value": "mj-bg-9.jpg" },
+    { "fade": "fade-right", "value": "mj-bg-10.jpg" },
+    { "fade": "fade-left", "value": "mj-bg-11.jpg" },
+    { "fade": "fade-left", "value": "mj-bg-12.jpg" }
+]
